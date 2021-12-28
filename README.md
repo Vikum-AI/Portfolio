@@ -1,19 +1,33 @@
 # Starter code to create any react app
 
-## Clone the repo to begin.
+## Installation
 
- To start building your REACT app, you need to install a couple of packages, simply type the following commnad in the terminal: 
-
-`npm i react react-scripts react-router react-dom react-router-dom`
-
-
-## Then simply run the following command:
-
-`npm start`
-
+```
+npm install
+```
 
 ## Scripts
 
- `npm start` - Use this to start running a deployment server.
+```
+npm start
+```
 
-Doesn't contain a lot of clutter so you can easily start your build process.
+- Use this to start running a deployment server.
+
+```
+npm build
+```
+
+- Use this to build the app for production.
+
+```
+npm test
+```
+
+- Use this to run the tests.
+
+```
+npm run build:test
+```
+
+- Use this to build the app for production and run the tests.

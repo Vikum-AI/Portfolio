@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 5rem;
+}
+
+.special {
+  margin-top: 8rem;
+}
+
+.card iframe {
+  pointer-events: none;
+}
+
+.card lottie-player {
+  height: 40vh;
+  -webkit-box-shadow: 10px -10px 10px rgba(36, 36, 36, 0.6);
+          box-shadow: 10px -10px 10px rgba(36, 36, 36, 0.6);
+  background-color: #161616;
+  border-radius: 24px;
+  margin-top: 2rem;
+}
+
+.card lottie-player:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.card h2 {
+  font-family: "Dosis", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left top, right top, from(#8360c3), to(#2ebf91));
+  background: linear-gradient(to right, #8360c3, #2ebf91);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 2rem;
+}
+
+.teaching {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bg2 {
+  background: #11998e;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#11998e), to(#38ef7d));
+  background: linear-gradient(to right, #11998e, #38ef7d);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 35rem;
+  height: 2rem;
+  position: relative;
+  z-index: -1;
+  opacity: 0.65;
+  border-radius: 2px;
+  left: 27rem;
+  bottom: 1.5rem;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+/*# sourceMappingURL=special.css.map */

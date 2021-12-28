@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+iframe {
+  border: none;
+  height: 80vh;
+  width: 30%;
+  margin-left: 2rem;
+  margin-top: 3rem;
+  border-radius: 10rem;
+}
+
+.main {
+  margin-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .info {
+  width: 60%;
+  margin-left: 1rem;
+}
+
+img {
+  height: 70vh;
+  border-radius: 2rem;
+}
+/*# sourceMappingURL=main.css.map */

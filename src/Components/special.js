@@ -30,26 +30,31 @@ export default function special() {
             <div className="cards">
 
                 <div className="card">
-                    <h2> Chemistry </h2>
-                    <lottie-player
-                        autoplay
-                        loop
-                        mode="normal"
-                        src="https://assets3.lottiefiles.com/private_files/lf30_zwfogfnj.json"
-                        className='chem'
-                    ></lottie-player>
                     
+                    <div className="player">
+                        <lottie-player
+                            autoplay
+                            loop
+                            mode="normal"
+                            src="https://assets3.lottiefiles.com/private_files/lf30_zwfogfnj.json"
+                            className='chem'
+                        ></lottie-player>
+                        
+                    </div>
+                    <h2 className='chemm'> Chemistry </h2>
                 </div>
 
                 <div className="card">
                     <h2> Business</h2>
-                    <lottie-player
-                        autoplay
-                        loop
-                        mode="normal"
-                        src="https://assets5.lottiefiles.com/packages/lf20_qwATcU.json"
-                        className='chem'
-                    ></lottie-player>
+                    <div className="player2">
+                        <lottie-player
+                            autoplay
+                            loop
+                            mode="normal"
+                            src="https://assets5.lottiefiles.com/packages/lf20_qwATcU.json"
+                            className='chem'
+                        ></lottie-player>
+                    </div>
                 </div>
 
             </div>

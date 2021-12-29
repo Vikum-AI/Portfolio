@@ -13,21 +13,22 @@
 
 .special {
   margin-top: 8rem;
+  margin-bottom: 5rem;
 }
 
 .card {
   iframe {
     pointer-events: none;
   }
-  lottie-player {
-    height: 40vh;
-    box-shadow: 10px -10px 10px rgba(36, 36, 36, 0.6);
-    background-color: rgb(22, 22, 22);
-    border-radius: 24px;
-    margin-top: 2rem;
-  }
+  // lottie-player:nth-child(2) {
+  //   height: 40vh;
+  //   box-shadow: 10px -10px 10px rgba(36, 36, 36, 0.6);
+  //   background-color: rgb(22, 22, 22);
+  //   border-radius: 24px;
+  //   margin-top: 2rem;
+  // }
   lottie-player:hover {
-    transform: scale(1.1);
+    transform: scale(1.15);
     transition: 0.5s;
   }
   h2 {
@@ -67,4 +68,28 @@
   left: 27rem;
   bottom: 1.5rem;
   transform: rotate(0deg);
+}
+
+.player {
+  height: 40vh;
+  box-shadow: 10px -10px 10px rgba(36, 36, 36, 0.6);
+  background-color: rgb(22, 22, 22);
+  border-radius: 24px;
+  margin-top: 2rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.player2 {
+  height: 40vh;
+  box-shadow: 10px -10px 10px rgba(36, 36, 36, 0.6);
+  background-color: rgb(22, 22, 22);
+  border-radius: 24px;
+  margin-top: 2rem;
+}
+
+.chemm {
+  margin-top: 2rem;
 }

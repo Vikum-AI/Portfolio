@@ -17,24 +17,16 @@
 
 .special {
   margin-top: 8rem;
+  margin-bottom: 5rem;
 }
 
 .card iframe {
   pointer-events: none;
 }
 
-.card lottie-player {
-  height: 40vh;
-  -webkit-box-shadow: 10px -10px 10px rgba(36, 36, 36, 0.6);
-          box-shadow: 10px -10px 10px rgba(36, 36, 36, 0.6);
-  background-color: #161616;
-  border-radius: 24px;
-  margin-top: 2rem;
-}
-
 .card lottie-player:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -80,5 +72,31 @@
   bottom: 1.5rem;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
+}
+
+.player {
+  height: 40vh;
+  -webkit-box-shadow: 10px -10px 10px rgba(36, 36, 36, 0.6);
+          box-shadow: 10px -10px 10px rgba(36, 36, 36, 0.6);
+  background-color: #161616;
+  border-radius: 24px;
+  margin-top: 2rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.player2 {
+  height: 40vh;
+  -webkit-box-shadow: 10px -10px 10px rgba(36, 36, 36, 0.6);
+          box-shadow: 10px -10px 10px rgba(36, 36, 36, 0.6);
+  background-color: #161616;
+  border-radius: 24px;
+  margin-top: 2rem;
+}
+
+.chemm {
+  margin-top: 2rem;
 }
 /*# sourceMappingURL=special.css.map */

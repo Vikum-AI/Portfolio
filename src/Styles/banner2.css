@@ -24,6 +24,14 @@
   background-color: #161616;
 }
 
+.banner2 img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: cell;
+}
+
 .banner2 button {
   margin-top: 2rem;
   border: 1px solid #11998e;

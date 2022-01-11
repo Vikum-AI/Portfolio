@@ -24,11 +24,16 @@
   pointer-events: none;
 }
 
+.card lottie-player {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
 .card lottie-player:hover {
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
 }
 
 .card h2 {
@@ -85,6 +90,8 @@
   padding-right: 6rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .player2 {
@@ -94,6 +101,8 @@
   background-color: #161616;
   border-radius: 24px;
   margin-top: 2rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .chemm {

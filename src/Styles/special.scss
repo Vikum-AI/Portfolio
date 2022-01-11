@@ -27,9 +27,12 @@
   //   border-radius: 24px;
   //   margin-top: 2rem;
   // }
+  lottie-player {
+    transition: 1s;
+  }
   lottie-player:hover {
     transform: scale(1.15);
-    transition: 0.5s;
+    transition: 0.8s;
   }
   h2 {
     font-family: "Dosis", sans-serif;
@@ -80,6 +83,7 @@
   padding-right: 6rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  transition: 0.5s;
 }
 
 .player2 {
@@ -88,6 +92,7 @@
   background-color: rgb(22, 22, 22);
   border-radius: 24px;
   margin-top: 2rem;
+  transition: 0.5s;
 }
 
 .chemm {
